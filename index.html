@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elzio Thrift</title>
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    
+    <!-- Costum CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Owl carausel -->
+    <link rel="stylesheet" href="owl_carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl_carousel/owl.theme.default.css">
+    <!-- Boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning py-2 fixed-top">
+        <div class="container">
+            <div class="logo text-uppercase fw-bold ms-2">Elzio Thrift</div>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart cart"></i>
+                    <span class="position-absolute top-0 start-100  translate-middle badge bg-primary"></span>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark fw-normal" href="#hero-section">Beranda</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#about-products">Tentang</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#product">Produk</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#review">Review</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+      <!-- Home -->
+      <header id="hero-section" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="row text-center carousel-item active">
+                <div class="text-center carausel-item">
+                    <h1 class="display-4 fs-1 fw-bold text-white text-1">
+                        Elzio Thrift.
+                    </h1>
+                    <p class="text-white py-2 opacity-75 text-2">
+                        THRIFT SHOP
+                    </p>
+                    <a href="#" class="btn bg-violet text-white rounded-pill px-4 shadow text-3">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </header>
+      <!-- Home end -->
+      
+      <!-- value product -->
+      <section id="about-products">
+        <div class="text-center mt-5 mb-5">
+            <h1 class="display-4 text-dark">
+                Elzio Thrift
+            </h1>
+            <p class="text-dark py-2 opacity-75">
+                Murah Tapi Gak Murahan
+            </p>
+        </div>
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="d-flex flex-row flex-lg-column">
+                <img src="img/warna.jpg" alt="" class="col-4 rounded-4">
+                <div class="d-flex flex-column col-8 ms-3 ms-lg-0 detail mt-3 mt-md-0">
+                  <h5 class="mt-lg-3">Banyak pilihan warna</h5>
+                  <p class="mt-lg-2">Warna pilihan kamu dijamin ready.</p>
+                </div>
+              </div>
+            </div> 
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="d-flex flex-row-reverse flex-md-row flex-lg-column">
+                <img src="img/ukuran.jpg" alt="" class="col-4 rounded-4">
+                <div class="d-flex flex-column col-8 ms-3 ms-lg-0 detail mt-3 mt-md-0">
+                  <h5 class="mt-lg-3">Berbagai ukuran</h5>
+                  <p class="mt-lg-2">Mulai dari S, M, L, XL. Kamu mau yang mana?</p>
+                </div>
+              </div>
+            </div> 
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="d-flex flex-row flex-lg-column">
+                <img src="img/harga.jpg" alt="" class="col-4 rounded-4">
+                <div class="d-flex flex-column col-8 ms-3 ms-lg-0 detail mt-3 mt-md-0">
+                  <h5 class="mt-lg-3">Murah & Berkualitas</h5>
+                  <p class="mt-lg-2">Harga terjangkau mulai dari Rp 40.000 aja.</p>
+                </div>
+              </div>
+            </div> 
+           
+          </div>
+        </div>
+      </section>
+      <!-- value product end -->
+
+      <!-- produk -->
+      <section id="product">
+        <div class="container">
+          <div class="row my-5">
+              <h1 class="text-center">Produk</h1>
+              <h2 class="text-center fw-light">Cardingan & Crop</h2>
+          </div>
+  
+          <!-- cardingan & crop -->
+          <div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/cardingan1.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Cardingan</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/cardingan2.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>                
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Cardingan</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/cardingan3.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Cardingan</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/cardingan4.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Cardingan</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">RP 45.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/cardingan5.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Cardingan</span>
+                      <span class="d-block text-dark py-2">Size S</span>
+                      <span class="product-price">RP 45.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+  
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/crop1.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Crop</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">Rp 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/crop2.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Crop</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">Rp 55.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/crop3.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Crop</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">Rp 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/crop4.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Crop</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">Rp 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/crop5.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Crop</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">Rp 55.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div> 
+          </div>
+      </div>
+
+        <div class="container">
+          <div class="row my-5">
+              <h2 class="text-center fw-light">Baju Rajut</h2>
+          </div>
+  
+          <!-- baju rajut -->
+          <div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut1.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">RP 55.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut2.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut3.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">RP 45.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut4.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">RP 55.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut5.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut6.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">RP 45.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut7.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size XL</span>
+                      <span class="product-price">RP 60.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut8.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size L</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut9.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div>
+
+              <div class="col product-item mx-auto">
+                  <div class="product-img">
+                      <img src="img/rajut10.jpg" alt="" class="img-fluid d-block mx-auto">
+                      <span class="heart-icon">
+                          <i class="far fa-heart"></i>
+                      </span>
+                  </div>
+  
+                  <div class="product-info p-3">
+                      <span class="product-type">Rajut</span>
+                      <span class="d-block text-dark py-2">Size M</span>
+                      <span class="product-price">RP 50.000</span>
+                      <div class="rating d-flex mt-1">
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <span>(25 reviews)</span>
+                      </div>
+                      <a href="https://wa.me/+6281461157341" class="btn bg-violet text-white mt-3">Beli Sekarang</a>
+                  </div>
+              </div> 
+          </div>
+      </div>
+      </section>
+      <!-- produk end -->
+
+      <!-- buy -->
+      <section id="buy">
+        <div class="container">
+          <div class="row text-center">
+            <h2 class="display-6">Tersedia Juga di</h2>
+          </div>
+          <div class="row mt-4">
+            <div class="d-flex justify-content-center flex-wrap flex-column flex-md-row links">
+              <a href="https://shp.ee/jg35nh0" class="btn bg-violet text-white px-5"><img src="img/shopee.png" alt="">Shopee</a>
+              <a href="https://www.instagram.com/elziothrift?igsh=MWs1MTdybXRjczlpOA==" class="btn bg-violet text-white px-5"><img src="img/instagram.png" alt="">Instagram</a>
+              <a href="https://vt.tiktok.com/ZS8mBojnw/" class="btn bg-violet text-white px-5"><img src="img/tiktok.png" alt="">Tiktok</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!--  -->
+
+      <!-- review -->
+      <section id="review">
+        <div class="container">
+            <div class="row py-5">
+                <h1 class="text-center">Review</h1>
+            </div>
+
+            <div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+                <div class="col review-item mx-auto">
+                    <div class="review-img">
+                        <img src="img/testi1.jpg" alt="" class="img-fluid d-block mx-auto">
+                    </div>                   
+                </div>
+                <div class="col review-item mx-auto">
+                    <div class="review-img">
+                        <img src="img/testi2.jpg" alt="" class="img-fluid d-block mx-auto">
+                    </div>                   
+                </div>
+                <div class="col review-item mx-auto">
+                    <div class="review-img">
+                        <img src="img/testi3.jpg" alt="" class="img-fluid d-block mx-auto">
+                    </div>     
+                </div>
+                <div class="col review-item mx-auto">
+                    <div class="review-img">
+                        <img src="img/testi4.jpg" alt="" class="img-fluid d-block mx-auto">
+                    </div>                  
+                </div>
+            </div>
+
+        </div>
+      </section>
+      <!-- review end -->
+
+      <section id="contact">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col">
+                    <h1 class="text-center">Kontak</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Terima kasih!</strong> Pesan anda telah Terkirim  
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      </div>
+                    <form name="elzio-contact-form">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Nama lengkap</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+                        <button class="btn btn-primary btn-loading d-none" type="submit" disabled>
+                            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                            <span role="status">Loading...</span>
+                          </button>
+                      </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-6 mt-4 mt-md-0">
+                    <h3 class="mb-2 text-warning">Elzio Thrift</h3>
+                    <ul class="list-unstyled">
+                        <li><i class='bx bxs-home'></i>Desa cikaduwetan, Luragung</li>
+                        <li><i class='bx bxs-phone'></i>+62 814 6115 7341</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3 mt-3 mt-md-0">
+                    <h3 class="mb-2 text-warning">Link</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#hero-section" class="footer-link text-decoration-none text-uppercase text-white">Beranda</a></li>
+                        <li><a href="#about-products" class="footer-link text-decoration-none text-uppercase text-white">Tentang</a></li>
+                        <li><a href="#product" class="footer-link text-decoration-none text-uppercase text-white">Produk</a></li>
+                        <li><a href="#review" class="footer-link text-decoration-none text-uppercase text-white">Review</a></li>
+                        <li><a href="#contact" class="footer-link text-decoration-none text-uppercase text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3 mt-3 mt-md-0">
+                    <h3 class="mb-2 text-warning">Social Media</h3>
+                    <div class="d-flex gap-2">
+                        <a href="https://www.instagram.com/elziothrift?igsh=MWs1MTdybXRjczlpOA=="><img src="img/instagram.png" alt=""></a>
+                        <a href="https://vt.tiktok.com/ZS8mBojnw/"><img src="img/tiktok.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+      <footer class="py-2 px-3 px-md-0 bg-warning">
+        <p class="text-dark text-center">&copy;Copyright 2023.</p>
+      </footer>
+      <!-- footer end -->
+
+
+
+    <!-- footer -->
+   
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl js -->
+    <script src="owl_carousel/owl.carousel.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Costum JS -->
+    <script src="js/script.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

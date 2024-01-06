@@ -1,0 +1,272 @@
+:root {
+    --violet: rgba(138, 43, 226, 1);
+    --dark-violet: indigo;
+    --black:rgba(0, 0, 0);
+}
+
+/* global */
+section  {
+    padding: 50px 0 100px;
+}
+
+/* costum css */
+.bg-violet {
+    background: var(--violet) !important;
+}
+
+.bg-darkviolet {
+    background: var(--dark-violet) !important;
+}
+
+.text-darkviolet {
+    color: var(--dark-violet) !important;
+}
+
+.border-violet {
+    border: 2px solid var(--violet) !important;
+}
+
+a.bg-violet:hover {
+    background-color: var(--violet) !important;
+}
+
+a.border-violet:hover {
+    border: 2px solid var(--violet) !important;
+}
+
+/* navbar */
+.navbar{
+    -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.nav-link:hover {
+    color: var(--violet)!important;
+}
+
+.nav-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .8s;
+}
+
+.cart {
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .8s;
+}
+
+/* navbar end */
+
+/* Hero section */
+#hero-section {
+    background: url(../img/banner.png) top/cover no-repeat;
+}
+
+#hero-section::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#hero-section .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-section h1 {
+    margin-top: 150px;
+
+}
+
+.text-1 {opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.text-2 {
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.text-3 {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+/* Hero section end */
+
+/* about products */
+#about-products .row {
+    row-gap: 3rem;
+}
+/* about products end */
+
+
+/* Product */
+.product-item {
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.btns {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.btns button {
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns button:hover {
+    color: #fcb941;
+}
+
+.btns button:hover .btns {
+    bottom: 0;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.product-price {
+    color: #fcb941;
+}
+
+.rating{
+    font-size: 13px;
+}
+
+.product-item{
+    width: 300px;
+}
+/* Product end */
+
+
+/* buy */
+#buy .links {
+    column-gap: 3rem;
+}
+/* buy end */
+
+/* review */
+.review-item {
+    border: 1px solid rgb(219, 219, 219);
+    width: 300px;
+}
+
+.review-img {
+    margin: .5rem;
+}
+/* review end */
+
+
+/* footer */
+.footer-link:hover{
+    color: var(--violet)!important;
+}
+/* footer end */
+/* mobile */
+@media (max-width:768px) {
+    #buy .links {
+        row-gap: 1rem;
+    }
+}
+/* dekstop */
+@media (min-width: 992px) {
+    #value-products img{
+        height: auto;
+        width: 100%;
+    }
+
+    #value-products .detail {
+        width: 100%;
+    }
+}
+
+
+/* Keyframe */
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
